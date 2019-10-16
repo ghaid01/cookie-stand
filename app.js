@@ -209,6 +209,7 @@
 // Lima.render();
 'use strict';
 var times = ['6am', '7am', '8am', '9am', '10am', '11am', '12am', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
+var footerRow;
 function Location(locationName, minCust, maxCust, avgCookies) {
     this.locationName = locationName;
     this.min = minCust;
@@ -276,9 +277,13 @@ function renderHeaderRow(table) {
     tr.appendChild(th);
     th.textContent = 'Daily Location Total';
 }
+
 function renderFooterRow(table) {
+    
     var tr = document.createElement('tr');
     table.appendChild(tr);
+    footerRow = tr ;
+    
     var td = document.createElement('td');
     tr.appendChild(td);
     td.textContent = 'Total';
@@ -330,3 +335,22 @@ renderFooterRow(table);
 //     table.appendChild(td);
 //     td.textContent('Totals');
 // }
+function submitButton(event) {
+    event.preventDefault();
+    var location = event.target.location.value;
+    var min = parseInt(event.target.min.value);
+    var max = parseInt(event.target.max.value);
+    var avgcookies = parseFloat(event.target.avgcookies.value);
+    var newShop = new Location(location,min,max,avgcookies);
+    
+    shops.push(newShop);
+    table.removeChild(footerRow);
+ newShop.render(table); 
+ renderFooterRow(table);
+
+    
+    
+ 
+}
+var cookieForm = document.getElementById('shopForm');
+cookieForm.addEventListener('submit', submitButton);
