@@ -1,0 +1,192 @@
+* {
+    font-family: Arial, sans-serif;
+  }
+  table, th, td {
+    border: 4px solid rgb(87, 133, 111);
+    font-size:15px;
+    text-align: center;
+    border-collapse: collapse;
+    color:rgb(87, 133, 111);
+   }
+   table {
+    width: 100%;
+  }
+  
+  th {
+    height: 50px;
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  
+h1 {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(87, 133, 111);
+    font-size:70px;
+    font-family:Bradley Hand, cursive;
+    
+   
+    
+  }
+  #first-pic{
+    width:104px;
+    
+  }
+   nav{
+    background-color:rgba(228, 212, 170, 0.623);
+    padding:10px;
+    margin:10px;
+    font-size:50px;
+   transition:2000ms;
+    border-radius: 10px;
+  
+    } 
+  a {
+text-decoration: none;
+color:white;
+font-family: Brush Script MT, Brush Script Std, cursive;
+  }
+  li {
+    display:inline-block;
+    padding:20px;
+   
+    }
+  #shopForm{
+    margin: 20px;
+    
+
+  }
+  #hPbody{
+    background: radial-gradient(#7211425d, rgb(194, 111, 111)) fixed;
+    text-align: center;
+  }
+  
+    fieldset{
+      color:rgb(87, 133, 111);
+      font-size:30px;
+      border: 4px solid rgb(87, 133, 111);
+    }
+    content-area {
+      text-align: center;
+    }
+#cookies{
+padding:0px;
+width:100%;
+margin:0px;
+height:700px;
+}
+
+ #p1{
+  font-size:30px;
+  font-family: Chalkduster, fantasy;
+  color:white;
+  display: block;
+  /* float: right; */
+  margin:0px;
+  padding:0px;
+  } 
+  #family{
+  float:left; 
+    padding:15px;
+    width:800px;
+  }
+  nav:hover{
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/inside-out-red-velvet-cookies-horizontal-1549055083.png?crop=1.00xw:0.752xh;0,0.161xh&resize=1200:*"); 
+  }
+  
+  
+  #stars{
+    color:white;
+  }
+  p{
+    color:white;
+    padding:0px;
+  }
+ .footer{
+   padding:10px;
+   margin:20px;
+  
+ }
+#salmon{
+    width:100px;
+  }
+
+#body2{
+    background-color:rgba(226, 193, 215, 0.842);
+    text-align: center;
+  }
+  button{
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: rgb(87, 133, 111);
+    float:right;
+    padding:10px;
+    margin:10px;
+}
+  button:hover{
+    background-color: lightgray;
+    color:white;
+  }
+#cookieShirt2{
+ width:340px;
+ height:325px;
+}
+
+#merchP{
+  font-size: 30px;
+  font-family:Luminari, fantasy;
+
+
+}
+#body3{
+  background: radial-gradient(#664b69ce, rgb(104, 52, 104)) fixed;
+  text-align: center;
+}
+#merchP2{
+  font-size: 30px;
+  font-family:Luminari, fantasy;
+
+}
+#11{
+  padding:2px;
+  margin:3px;
+}
+#hc{
+  text-align: center;
+  font-size: 50px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color:rgba(151, 61, 124, 0.712);
+  
+}
+#body4{
+background: radial-gradient(#70b0c4ce, rgba(101, 109, 112, 0.651)) fixed;
+}
+#p111{
+  color:rgba(151, 61, 124, 0.712);
+  padding:2px;
+  font-size: 40px;
+  font-family: 'Shadows Into Light', cursive;
+}
+#p112{
+ color: rgba(151, 61, 124, 0.712);
+ font-size: 40px;
+ font-family: 'Shadows Into Light', cursive;
+}
+#p113{
+  color:rgba(151, 61, 124, 0.712);
+  font-size: 40px;
+  font-family:'Shadows Into Light', cursive;
+}
+#theShop{
+  float:right;
+  width:500px;
+}
+
+ 
+#theShop2{
+  width:480px;
+  float:right;
+}
